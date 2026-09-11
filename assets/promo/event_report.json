@@ -1,0 +1,21 @@
+{
+  "source": "G:\\1 ARMA3_DEVELOPMENT\\Blinder Assets\\Event Stage setup\\Event+STAGE.blend",
+  "objects": 93,
+  "bounds": [
+    [
+      -9.679648399353027,
+      -3.827976942062378,
+      -0.027646541595458984
+    ],
+    [
+      9.699132919311523,
+      4.334174633026123,
+      5.752591609954834
+    ]
+  ],
+  "missing_images": [
+    "dark-grey-carpet-tile.jpg",
+    "Red Matt Texture 01.png",
+    "surface.jpg.002"
+  ]
+}

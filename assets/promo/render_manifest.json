@@ -1,0 +1,120 @@
+{
+  "arena": {
+    "source": "G:\\1 ARMA3_DEVELOPMENT\\Blinder Assets\\Arena Stage Venue Props Pack -  Modular Event Stage\\Blender_5.0.1.blend",
+    "objects": 95,
+    "bounds": [
+      [
+        -16.49518394470215,
+        -8.308998107910156,
+        -9.91821252682712e-07
+      ],
+      [
+        48.3055534362793,
+        7.9334845542907715,
+        19.755762100219727
+      ]
+    ],
+    "missing_images": []
+  },
+  "event": {
+    "source": "G:\\1 ARMA3_DEVELOPMENT\\Blinder Assets\\Event Stage setup\\Event+STAGE.blend",
+    "objects": 93,
+    "bounds": [
+      [
+        -9.679648399353027,
+        -3.827976942062378,
+        -0.027646541595458984
+      ],
+      [
+        9.699132919311523,
+        4.334174633026123,
+        5.752591609954834
+      ]
+    ],
+    "missing_images": [
+      "dark-grey-carpet-tile.jpg",
+      "Red Matt Texture 01.png",
+      "surface.jpg.002"
+    ]
+  },
+  "speakers": {
+    "source": "G:\\Github Repos\\A3_DJ_Audio\\asset_work\\legacy_ravespace_stacks\\ravespace_stacks.blend",
+    "objects": 17,
+    "bounds": [
+      [
+        -2.058000087738037,
+        -0.40000003576278687,
+        0.0
+      ],
+      [
+        2.2262039184570312,
+        0.4170348644256592,
+        2.7321505546569824
+      ]
+    ],
+    "missing_images": []
+  },
+  "truss": {
+    "source": "G:\\1 ARMA3_DEVELOPMENT\\Blinder Assets\\truss system line array\\truss+square+line+array.blend",
+    "objects": 71,
+    "bounds": [
+      [
+        -10.166951179504395,
+        -3.885613441467285,
+        -0.022585272789001465
+      ],
+      [
+        8.472321510314941,
+        4.153824329376221,
+        6.0
+      ]
+    ],
+    "missing_images": [
+      "SurfaceImperfections003_2K_var1.jpg"
+    ]
+  },
+  "devices": {
+    "source": "G:\\1 ARMA3_DEVELOPMENT\\Blinder Assets\\Various projection sound and lighting devices\\bar.lead+screen.blend1",
+    "objects": 131,
+    "bounds": [
+      [
+        -35.21693801879883,
+        2.970097780227661,
+        0.12587809562683105
+      ],
+      [
+        34.17902755737305,
+        47.33396911621094,
+        59.73945236206055
+      ]
+    ],
+    "missing_images": [
+      "Free Background_ SWEET DREAMS COLOUR FULL _ GRAPHICS_ ANIMATED ",
+      "images (27) (8).jpeg",
+      "images (3).png",
+      "IMG_\u0662\u0660\u0662\u0664\u0660\u0662\u0662\u0665_\u0661\u0669\u0661\u0667\u0662\u0669.jpg.001",
+      "photo_2024-01-17_02-14-31.jpg.001",
+      "PSX_20240117_162429.jpg",
+      "surface.jpg"
+    ]
+  },
+  "mixer": {
+    "source": "G:\\1 ARMA3_DEVELOPMENT\\Blinder Assets\\Music Mixtable\\Mixtable.blend",
+    "objects": 161,
+    "bounds": [
+      [
+        -4.896751403808594,
+        -2.6075072288513184,
+        -0.6334085464477539
+      ],
+      [
+        4.914237022399902,
+        2.642134666442871,
+        0.9536552429199219
+      ]
+    ],
+    "missing_images": [
+      "Knife_Party_Logo.jpg"
+    ]
+  }
+}

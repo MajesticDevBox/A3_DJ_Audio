@@ -1,0 +1,689 @@
+00:02.641  blend            | Read blend: "G:\1 ARMA3_DEVELOPMENT\Blinder Assets\Music Mixtable\Mixtable.blend"
+00:02.656  blend.doversion  | WARNING Region type 4 missing in space type "Info" (id: 7) - removing region
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.687  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.687  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.703  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  reports          | ERROR Unable to pack file, source path 'G:\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf' not found
+00:02.719  geom.vfont       | WARNING Font file doesn't exist: //..\..\..\Windows\Fonts\ufonts.com_futura-extrabold-oblique.ttf
+G:\Github Repos\A3_DJ_Audio\tools\render_asset_promo.py:18: DeprecationWarning: 'Scene.use_nodes' is expected to be removed in Blender 6.0
+  scene.use_nodes=False
+G:\Github Repos\A3_DJ_Audio\tools\render_asset_promo.py:60: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+00:14.328  render           | Saved: 'G:\Github Repos\A3_DJ_Audio\assets\promo\mixer.png'
+RENDER_DONE mixer
+
+Blender quit

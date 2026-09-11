@@ -1,0 +1,18 @@
+author="Event DJ";
+onLoadName="Event DJ V0.1 acceptance";
+disabledAI=1;
+respawn=3;
+respawnDelay=5;
+class Header {gameType="COOP"; minPlayers=1; maxPlayers=3;};
+class CfgRemoteExec {
+ class Functions {mode=1; jip=0;
+  class EDJ_fnc_serverRequest {allowedTargets=2;};
+  class EDJ_fnc_sync {allowedTargets=2;};
+  class EDJ_fnc_receive {allowedTargets=0;};
+  class EDJ_fnc_radioDialog {allowedTargets=0;};
+  class EDJ_fnc_configureRadio {allowedTargets=2;};
+  class AE3_main_fnc_sendVarToRemote {allowedTargets=2;};
+  class AE3_interaction_fnc_manageAce3Interactions {allowedTargets=2;};
+ };
+ class Commands {mode=0; jip=0;};
+};

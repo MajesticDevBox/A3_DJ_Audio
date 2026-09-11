@@ -1,0 +1,13 @@
+name: Check and build
+on: [push, pull_request]
+jobs:
+  hemtt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install HEMTT 1.21.0
+        run: |
+          curl -fsSL https://github.com/BrettMayson/HEMTT/releases/download/v1.21.0/linux-x64 -o /tmp/hemtt
+          chmod +x /tmp/hemtt
+      - run: /tmp/hemtt check
+      - run: /tmp/hemtt build --no-bin

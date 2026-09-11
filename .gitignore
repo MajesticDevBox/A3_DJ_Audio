@@ -1,0 +1,12 @@
+.hemttout/
+.hemttcache/
+releases/
+*.rpt
+*.bidmp
+*.mdmp
+__pycache__/
+.hemttprivatekey
+*.biprivatekey
+
+# Marketplace asset working copies and intermediate exports never belong in Git.
+asset_work/

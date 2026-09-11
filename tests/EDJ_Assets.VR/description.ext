@@ -1,0 +1,5 @@
+author = "Event DJ";
+onLoadName = "Event DJ V0.2.5 asset validation";
+onLoadMission = "Daylight placement, collision, LOD, shadow, Eden, and Zeus validation for the first Event DJ asset batch.";
+disabledAI = 1;
+class Header { gameType = "COOP"; minPlayers = 1; maxPlayers = 1; };

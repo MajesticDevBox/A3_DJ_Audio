@@ -1,0 +1,58 @@
+version=54;
+class EditorData
+{
+ moveGridStep=1;
+ angleGridStep=0.2617994;
+ scaleGridStep=1;
+ autoGroupingDist=10;
+ toggles=1;
+ class ItemIDProvider {nextID=12;};
+ class Camera {pos[]={4000,18,3991}; dir[]={0,-0.45,1}; up[]={0,0.91,0.41}; aside[]={1,0,0};};
+};
+binarizationWanted=0;
+sourceName="Event DJ fresh asset validation";
+addons[]={"A3_Characters_F_BLUFOR","EDJ_assets"};
+class AddonsMetaData
+{
+ class List
+ {
+  items=2;
+  class Item0 {className="A3_Characters_F_BLUFOR"; name="Arma 3 Characters"; author="Bohemia Interactive"; url="https://www.arma3.com";};
+  class Item1 {className="EDJ_assets"; name="Event DJ assets"; author="Event DJ contributors";};
+ };
+};
+randomSeed=2501;
+class ScenarioData {author="Event DJ";};
+class Mission
+{
+ class Intel {briefingName="Event DJ fresh asset validation"; year=2035; month=6; day=1; hour=12; minute=0; startWeather=0; forecastWeather=0;};
+ class Entities
+ {
+  items=11;
+  class Item0
+  {
+   dataType="Group"; side="West"; id=0;
+   class Attributes {};
+   class Entities
+   {
+    items=1;
+    class Item0
+    {
+     dataType="Object"; side="West"; flags=7; id=1; type="B_Soldier_F";
+     class PositionInfo {position[]={4000,0,3993}; angles[]={0,0,0};};
+     class Attributes {isPlayer=1; isPlayable=1; name="edjAssetTester"; description="Asset tester"; skill=0.5;};
+    };
+   };
+  };
+  class Item1 {dataType="Object"; side="Empty"; flags=5; id=2; type="EDJ_Speaker_HornArray_Curved_03"; class PositionInfo {position[]={3994,0,4000}; angles[]={0,0,0};}; class Attributes {};};
+  class Item2 {dataType="Object"; side="Empty"; flags=5; id=3; type="EDJ_Speaker_LineArray_Curved_04"; class PositionInfo {position[]={3997,0,4000}; angles[]={0,0,0};}; class Attributes {};};
+  class Item3 {dataType="Object"; side="Empty"; flags=5; id=4; type="EDJ_Speaker_LineArray_Straight_04"; class PositionInfo {position[]={4000,0,4000}; angles[]={0,0,0};}; class Attributes {};};
+  class Item4 {dataType="Object"; side="Empty"; flags=5; id=5; type="EDJ_Speaker_HornArray_Straight_03"; class PositionInfo {position[]={4003,0,4000}; angles[]={0,0,0};}; class Attributes {};};
+  class Item5 {dataType="Object"; side="Empty"; flags=5; id=6; type="EDJ_Speaker_SubwooferArray_Straight_03"; class PositionInfo {position[]={4006,0,4000}; angles[]={0,0,0};}; class Attributes {};};
+  class Item6 {dataType="Object"; side="Empty"; flags=5; id=7; type="EDJ_Speaker_LineArray_CurvedStack_08"; class PositionInfo {position[]={4009,0,4000}; angles[]={0,0,0};}; class Attributes {};};
+  class Item7 {dataType="Object"; side="Empty"; flags=5; id=8; type="EDJ_DJ_MediaPlayer_01"; class PositionInfo {position[]={3997,0,4004}; angles[]={0,0,0};}; class Attributes {};};
+  class Item8 {dataType="Object"; side="Empty"; flags=5; id=9; type="EDJ_DJ_Controller_01"; class PositionInfo {position[]={4000,0,4004}; angles[]={0,0,0};}; class Attributes {};};
+  class Item9 {dataType="Object"; side="Empty"; flags=5; id=10; type="EDJ_Audio_MixingConsole_01"; class PositionInfo {position[]={4003,0,4004}; angles[]={0,0,0};}; class Attributes {};};
+  class Item10 {dataType="Object"; side="Empty"; flags=5; id=11; type="EDJ_DJ_PerformanceKeyboard_01"; class PositionInfo {position[]={4006,0,4004}; angles[]={0,0,0};}; class Attributes {};};
+ };
+};

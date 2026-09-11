@@ -1,0 +1,12 @@
+00:03.062  blend            | Read blend: "G:\1 ARMA3_DEVELOPMENT\Blinder Assets\truss system line array\truss+square+line+array.blend"
+G:\Github Repos\A3_DJ_Audio\tools\render_asset_promo.py:18: DeprecationWarning: 'Scene.use_nodes' is expected to be removed in Blender 6.0
+  scene.use_nodes=False
+G:\Github Repos\A3_DJ_Audio\tools\render_asset_promo.py:36: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:
+G:\Github Repos\A3_DJ_Audio\tools\render_asset_promo.py:73: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+00:12.562  render           | Saved: 'G:\Github Repos\A3_DJ_Audio\assets\promo\truss.png'
+RENDER_DONE truss
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

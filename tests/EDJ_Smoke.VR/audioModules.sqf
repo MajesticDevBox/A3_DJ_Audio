@@ -1,0 +1,50 @@
+// Runs inside the scheduled smoke script with its _check helper.
+private _group = createGroup sideLogic;
+private _radio = _group createUnit ["EDJ_Module_Radio", [4100,4100,0], [], 0, "NONE"];
+private _prop = createVehicle ["Land_Loudspeakers_F", [4100,4100,0], [], 0, "CAN_COLLIDE"];
+[_radio, _prop, "edj_example_tone_a", 0.3, 2, 80] call EDJ_fnc_configureRadio;
+sleep 0.5;
+private _radioId = _prop getVariable ["EDJ_stageId", ""];
+["radio_registered", _radioId in EDJ_stages] call _check;
+if (_radioId in EDJ_stages) then {
+    private _radioState = EDJ_stages get _radioId;
+    ["radio_autoplay", _radioState get "playback" == "playing"] call _check;
+    ["radio_volume_range", _radioState get "masterVolume" == 0.3 && {_radioState get "range" == 80}] call _check;
+    private _count = count EDJ_stages;
+    [_radio, _prop, "groove", 1, 1, 50] call EDJ_fnc_configureRadio;
+    sleep 0.1;
+    ["radio_duplicate_rejected", count EDJ_stages == _count] call _check;
+    deleteVehicle _radio;
+    sleep 0.1; // Engine deletion completes on the following frame.
+    call EDJ_fnc_maintain;
+    ["radio_delete_frees_target", !(_radioId in EDJ_stages) && {_prop getVariable ["EDJ_stageId", ""] == ""}] call _check;
+};
+deleteVehicle _prop;
+private _state = EDJ_stages get "main";
+["pa_boost_defaults", _state get "outputGain" == 2 && {_state get "range" == 500}] call _check;
+private _direction = createHashMapFromArray [["masterVolume", 1], ["outputGain", 2], ["cone", 90], ["emitter", edjPA]];
+private _oldDir = getDir edjPA;
+edjPA setDir (edjPA getDir player);
+private _front = [_direction] call EDJ_fnc_streamGain;
+edjPA setDir ((getDir edjPA) + 180);
+private _rear = [_direction] call EDJ_fnc_streamGain;
+["stream_direction_front_rear", _front > _rear && {abs (_front - 2) < 0.01} && {abs (_rear - 0.3) < 0.01}] call _check;
+edjPA setDir _oldDir;
+private _pa = _group createUnit ["EDJ_Module_PA", [4120,4100,0], [], 0, "NONE"];
+private _work = _group createUnit ["EDJ_Module_AddEventDJWorkstation", [4120,4101,0], [], 0, "NONE"];
+private _array = _group createUnit ["EDJ_Module_SpeakerArray", [4120,4102,0], [], 0, "NONE"];
+private _mainProp = createVehicle ["Land_Loudspeakers_F", [4120,4103,0], [], 0, "CAN_COLLIDE"];
+private _secondary = createVehicle ["Land_Loudspeakers_F", [4125,4103,0], [], 0, "CAN_COLLIDE"];
+_work synchronizeObjectsAdd [edjOrdinaryLaptop];
+[_work, [], true] call EDJ_fnc_moduleWorkstation;
+_array synchronizeObjectsAdd [_secondary];
+_pa synchronizeObjectsAdd [_work, _mainProp, _array];
+_pa setVariable ["StageId", "array_test"];
+[_pa, [], true] call EDJ_fnc_moduleAudio;
+sleep 0.5;
+["pa_sync_registration", "array_test" in EDJ_stages] call _check;
+if ("array_test" in EDJ_stages) then {
+    private _arrayState = EDJ_stages get "array_test";
+    ["pa_array_one_emitter", _arrayState get "emitter" == _mainProp && {count (_arrayState get "arrayMembers") == 2} && {!(_secondary getVariable ["EDJ_stageId", ""] in EDJ_stages)}] call _check;
+};
+edjOrdinaryLaptop setVariable ["EDJ_isWorkstation", false, true];

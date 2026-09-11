@@ -1,0 +1,14 @@
+name = "Event DJ"
+prefix = "edj"
+mainprefix = "z"
+author = "Event DJ contributors"
+[version]
+major = 0
+minor = 2
+patch = 6
+build = 0
+git_hash = 0
+[files]
+include = ["README.md", "LICENSE", "docs/**"]
+[hemtt.launch.default]
+workshop = ["450814997", "463939057", "2888888564", "3464681191"]

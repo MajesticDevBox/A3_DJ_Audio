@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "G:\Github Repos\A3_DJ_Audio\tools\render_asset_promo.py", line 16, in <module>
+    bpy.ops.wm.open_mainfile(filepath=str(SOURCES[key]),use_scripts=False)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Cannot read file "G:\Github Repos\A3_DJ_Audio\assets\ravespace_stacks\ravespace_stacks.blend": No such file or directory
+
+Error: Cannot read file "G:\Github Repos\A3_DJ_Audio\assets\ravespace_stacks\ravespace_stacks.blend": No such file or directory
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

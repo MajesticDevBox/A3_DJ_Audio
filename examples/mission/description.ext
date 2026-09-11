@@ -1,0 +1,14 @@
+// Merge with the mission's existing whitelist. Do not replace CBA/ACE/AE3 entries.
+class CfgRemoteExec {
+ class Functions { mode=1; jip=0;
+  class EDJ_fnc_serverRequest {allowedTargets=2;};
+  class EDJ_fnc_sync {allowedTargets=2;};
+  class EDJ_fnc_receive {allowedTargets=0;};
+  class EDJ_fnc_radioDialog {allowedTargets=0;};
+  class EDJ_fnc_configureRadio {allowedTargets=2;};
+  // Required by the inspected AE3 native desktop open/close workflow.
+  class AE3_main_fnc_sendVarToRemote {allowedTargets=2;};
+  class AE3_interaction_fnc_manageAce3Interactions {allowedTargets=2;};
+ };
+ class Commands {mode=0; jip=0;};
+};
