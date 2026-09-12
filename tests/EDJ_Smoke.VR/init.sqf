@@ -9,7 +9,7 @@ if (!hasInterface) exitWith {};
     };
     ["client_init", true] call _check;
     call compile preprocessFileLineNumbers "audioModules.sqf";
-    ["library_registry_count", count EDJ_libraryOrder == 5] call _check;
+    ["library_registry_count", count EDJ_libraryOrder == 6] call _check;
     ["library_tracks_discovered", "edj_example_tone_a" in EDJ_libraryRegistry && {"edj_example_tone_b" in EDJ_libraryRegistry}] call _check;
     ["library_stream_discovered", "groove" in EDJ_libraryRegistry && {(EDJ_libraryRegistry get "groove") get "sourceType" == "stream"}] call _check;
     ["library_malformed_rejected", !("edj_malformed" in EDJ_libraryRegistry)] call _check;

@@ -8,8 +8,9 @@ namespace edj {
 
 namespace {
 
-constexpr unsigned char kMagicVers[4] = {'V', 'e', 'r', 's'};
-constexpr unsigned char kMagicCprs[4] = {'C', 'p', 'r', 's'};
+// FourCC integers are stored little-endian, not as the printed tag text.
+constexpr unsigned char kMagicVers[4] = {'s', 'r', 'e', 'V'};
+constexpr unsigned char kMagicCprs[4] = {'s', 'r', 'p', 'C'};
 constexpr unsigned char kMagicNone[4] = {0, 0, 0, 0};
 
 bool ReadCString(std::ifstream& file, std::string& out) {
@@ -77,6 +78,11 @@ std::unique_ptr<PboArchive> PboArchive::Open(const std::string& path, std::strin
 
     auto archive = std::unique_ptr<PboArchive>(new PboArchive());
     archive->path_ = path;
+    file.seekg(0, std::ios::end);
+    const auto end = file.tellg();
+    if (end < 21) { outError = "truncated_archive"; return nullptr; }
+    const uint64_t fileSize = static_cast<uint64_t>(end);
+    file.seekg(0);
 
     bool first = true;
     for (;;) {
@@ -116,6 +122,7 @@ std::unique_ptr<PboArchive> PboArchive::Open(const std::string& path, std::strin
                     return nullptr;
                 }
                 archive->properties_[key] = value;
+                if (archive->properties_.size() > 256) { outError = "too_many_properties"; return nullptr; }
             }
             first = false;
             continue;
@@ -144,12 +151,16 @@ std::unique_ptr<PboArchive> PboArchive::Open(const std::string& path, std::strin
         entry.dataSize = dataSize;
         entry.timestamp = timestamp;
         archive->entries_.push_back(std::move(entry));
+        if (archive->entries_.size() > 100000) { outError = "too_many_entries"; return nullptr; }
     }
 
     // Data blocks are concatenated immediately after the sentinel, in the
     // same order as the header table.
     uint64_t offset = static_cast<uint64_t>(file.tellg());
     for (auto& entry : archive->entries_) {
+        if (offset > fileSize || entry.dataSize > fileSize - offset) {
+            outError = "entry_out_of_bounds"; return nullptr;
+        }
         entry.dataOffset = offset;
         offset += entry.dataSize;
     }
@@ -185,6 +196,7 @@ PboExtractResult PboArchive::Extract(const std::string& entryName) const {
         return result;
     }
 
+    if (entry->dataSize > 64 * 1024 * 1024) { result.error = "track_too_large"; return result; }
     result.data.resize(entry->dataSize);
     if (entry->dataSize > 0) {
         file.read(reinterpret_cast<char*>(result.data.data()), entry->dataSize);

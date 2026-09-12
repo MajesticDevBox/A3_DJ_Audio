@@ -51,6 +51,13 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <filesystem>
+#include <cmath>
+#include <stdexcept>
+#if defined(EDJ_PLATFORM_WINDOWS) && EDJ_PLATFORM_WINDOWS
+#include <windows.h>
+#include <shellapi.h>
+#endif
 
 #if defined(EDJ_PLATFORM_WINDOWS) && EDJ_PLATFORM_WINDOWS
     #define EDJ_EXPORT __declspec(dllexport)
@@ -72,6 +79,52 @@ constexpr const char* kExtensionVersion = "0.1.0-dev";
 
 std::mutex g_callbackMutex;
 CallbackFn g_callback = nullptr;
+std::mutex g_dispatchMutex;
+
+// Arma serializes string arguments with surrounding quotes. Backslashes in
+// SQF strings are literal; do not apply JSON/C escaping to virtual paths.
+std::string Unquote(std::string value) {
+    if (value.size() >= 2 && value.front() == '"' && value.back() == '"') {
+        value = value.substr(1, value.size() - 2);
+        for (std::size_t pos = 0; (pos = value.find("\"\"", pos)) != std::string::npos; ++pos) value.erase(pos, 1);
+    }
+    return value;
+}
+
+std::string Discover() {
+    namespace fs = std::filesystem;
+    std::vector<fs::path> roots;
+#if defined(EDJ_PLATFORM_WINDOWS) && EDJ_PLATFORM_WINDOWS
+    HMODULE module = nullptr;
+    if (GetModuleHandleExW(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS | GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT,
+        reinterpret_cast<LPCWSTR>(&Discover), &module)) {
+        wchar_t path[32768];
+        const auto len = GetModuleFileNameW(module, path, 32768);
+        if (len > 0 && len < 32768) roots.push_back(fs::path(std::wstring(path, len)).parent_path() / L"addons");
+    }
+    int count = 0;
+    auto argv = CommandLineToArgvW(GetCommandLineW(), &count);
+    if (argv != nullptr) {
+        for (int i = 1; i < count; ++i) {
+            std::wstring arg(argv[i]);
+            if (arg.rfind(L"-mod=", 0) != 0) continue;
+            std::wistringstream list(arg.substr(5));
+            std::wstring part;
+            while (std::getline(list, part, L';')) {
+                if (!part.empty()) roots.push_back(fs::path(part) / L"addons");
+            }
+        }
+        LocalFree(argv);
+    }
+#endif
+    int indexed = 0;
+    for (const auto& root : roots) {
+        std::string error;
+        const int n = edj::PathResolver::Instance().RegisterSearchRoot(root.string(), error);
+        if (n > 0) indexed += n;
+    }
+    return indexed > 0 ? "1:" + std::to_string(indexed) : "0:no_music_pack_roots";
+}
 
 void CopyToOutput(char* output, int outputSize, const std::string& value) {
     if (output == nullptr || outputSize <= 0) {
@@ -187,19 +240,19 @@ std::string OpReleaseTrack(const std::vector<std::string>& args) {
 }
 
 float ParseFloat(const std::string& s, float fallback) {
-    try {
-        return std::stof(s);
-    } catch (...) {
-        return fallback;
-    }
+    (void)fallback;
+    std::size_t used = 0;
+    const float value = std::stof(s, &used);
+    if (used != s.size() || !std::isfinite(value)) throw std::invalid_argument("invalid_number");
+    return value;
 }
 
 double ParseDouble(const std::string& s, double fallback) {
-    try {
-        return std::stod(s);
-    } catch (...) {
-        return fallback;
-    }
+    (void)fallback;
+    std::size_t used = 0;
+    const double value = std::stod(s, &used);
+    if (used != s.size() || !std::isfinite(value)) throw std::invalid_argument("invalid_number");
+    return value;
 }
 
 std::string OpRegisterSearchRoot(const std::vector<std::string>& args) {
@@ -256,6 +309,7 @@ bool GetOrLoadTrackBytes(const std::string& virtualPath, std::vector<uint8_t>& o
                 return false;
             }
             const std::streamsize size = file.tellg();
+            if (size <= 0 || size > 64 * 1024 * 1024) { outError = "invalid_track_size"; return false; }
             file.seekg(0);
             bytes.resize(static_cast<std::size_t>(size));
             if (size > 0 && !file.read(reinterpret_cast<char*>(bytes.data()), size)) {
@@ -314,6 +368,7 @@ std::string OpPlay(const std::vector<std::string>& args) {
     const float y = ParseFloat(args[5], 0.0f);
     const float z = ParseFloat(args[6], 0.0f);
     const float range = ParseFloat(args[7], 0.0f);
+    if (stageId.empty() || stageId.size() > 96 || gain < 0 || gain > 10 || offsetSeconds < 0 || offsetSeconds > 86400 || range < 1 || range > 5000) return "0:invalid_play_arguments";
 
     std::vector<uint8_t> bytes;
     std::string error;
@@ -342,6 +397,7 @@ std::string OpVolume(const std::vector<std::string>& args) {
     }
     std::string error;
     const float gain = ParseFloat(args[1], 1.0f);
+    if (gain < 0 || gain > 10) return "0:invalid_gain";
     if (!edj::PlaybackManager::Instance().SetVolume(args[0], gain, error)) {
         return "0:" + error;
     }
@@ -392,6 +448,12 @@ std::string Dispatch(const std::string& function, const std::vector<std::string>
     if (function == "version") {
         return kExtensionVersion;
     }
+    if (function == "meter") return engine.Meter();
+    if (function == "pause" || function == "resume" || function == "seek" || function == "duration" || function == "position" || function == "cue_mode") {
+        if (args.empty() || (function == "seek" && args.size() != 2)) return "0:missing_args";
+        return edj::PlaybackManager::Instance().Control(args[0], function, function == "seek" ? ParseDouble(args[1], 0) : 0);
+    }
+    if (function == "debug_source") return args.empty() ? "0:missing_args" : edj::PlaybackManager::Instance().Debug(args[0]);
     if (function == "init") {
         if (engine.Init()) {
             return "1";
@@ -399,12 +461,14 @@ std::string Dispatch(const std::string& function, const std::vector<std::string>
         return std::string("0:") + engine.LastError();
     }
     if (function == "shutdown") {
+        edj::PlaybackManager::Instance().StopAll();
         engine.Shutdown();
         return "1";
     }
     if (function == "status") {
         return engine.IsInitialized() ? "running" : "stopped";
     }
+    if (function == "discover") return Discover();
     if (function == "list_entries") {
         return OpListEntries(args);
     }
@@ -449,17 +513,27 @@ std::string Dispatch(const std::string& function, const std::vector<std::string>
 extern "C" {
 
 EDJ_EXPORT void EDJ_STDCALL RVExtension(char* output, int outputSize, const char* function) {
-    CopyToOutput(output, outputSize, Dispatch(function != nullptr ? function : "", {}));
+    std::lock_guard<std::mutex> lock(g_dispatchMutex);
+    try { CopyToOutput(output, outputSize, Dispatch(function != nullptr ? function : "", {})); }
+    catch (const std::exception&) { CopyToOutput(output, outputSize, "0:extension_exception"); }
+    catch (...) { CopyToOutput(output, outputSize, "0:extension_exception"); }
 }
 
 EDJ_EXPORT int EDJ_STDCALL RVExtensionArgs(char* output, int outputSize, const char* function,
                                             const char** argv, int argc) {
+    std::lock_guard<std::mutex> lock(g_dispatchMutex);
+    try {
+    if (argc < 0 || argc > 16 || (argc > 0 && argv == nullptr)) throw std::invalid_argument("invalid_arguments");
     std::vector<std::string> args;
     args.reserve(argc > 0 ? static_cast<std::size_t>(argc) : 0);
     for (int i = 0; i < argc; ++i) {
-        args.emplace_back(argv[i] != nullptr ? argv[i] : "");
+        args.emplace_back(Unquote(argv[i] != nullptr ? argv[i] : ""));
+        if (args.back().size() > 32768) throw std::invalid_argument("argument_too_long");
     }
     CopyToOutput(output, outputSize, Dispatch(function != nullptr ? function : "", args));
+    } catch (const std::invalid_argument&) { CopyToOutput(output, outputSize, "0:invalid_arguments"); }
+    catch (const std::exception&) { CopyToOutput(output, outputSize, "0:extension_exception"); }
+    catch (...) { CopyToOutput(output, outputSize, "0:extension_exception"); }
     return 0;
 }
 

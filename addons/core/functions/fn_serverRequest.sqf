@@ -1,6 +1,6 @@
 // Identity comes from transport ownership. Client payloads carry registered IDs only.
-if (!isServer || {!isRemoteExecuted}) exitWith {};
-private _sender = remoteExecutedOwner;
+if (!isServer || {!isRemoteExecuted && {isMultiplayer || {!hasInterface}}}) exitWith {};
+private _sender = if (isRemoteExecuted) then {remoteExecutedOwner} else {clientOwner};
 if !(_this isEqualType [] && {count _this == 3} && {(_this select 0) isEqualType ""} && {(_this select 1) isEqualType ""}) exitWith {
     [_sender, "", "malformed_payload"] call EDJ_fnc_deny;
 };
@@ -8,7 +8,9 @@ params ["_id", "_operation", "_value"];
 private _operations = ["claim", "release", "play", "stop", "volume", "deckLoad", "deckPlay", "deckPause", "deckResume", "deckStop", "deckSeek", "queueAdd", "queueRemove", "queueMove", "queueClear", "queueLoadNext", "activeDeck"];
 if (count _id > 48 || {!(_operation in _operations)}) exitWith {[_sender, _id, "invalid_operation"] call EDJ_fnc_deny;};
 private _unit = objNull;
-{if (owner _x == _sender && {isPlayer _x}) exitWith {_unit = _x};} forEach allPlayers;
+if (!isMultiplayer) then {_unit = player;} else {
+    {if (owner _x == _sender && {isPlayer _x}) exitWith {_unit = _x};} forEach allPlayers;
+};
 if (isNull _unit || {!alive _unit}) exitWith {[_sender, _id, "no_live_player"] call EDJ_fnc_deny;};
 private _key = str _sender;
 if (diag_tickTime - (EDJ_rate getOrDefault [_key, -10]) < 0.2) exitWith {};

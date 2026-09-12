@@ -86,6 +86,8 @@ int PathResolver::RegisterSearchRoot(const std::string& rootPath, std::string& o
 
 ResolvedTrack PathResolver::Resolve(const std::string& virtualPath) const {
     const std::string normalized = NormalizePath(virtualPath);
+    if (normalized.empty() || normalized.front() == '\\' || normalized.find(':') != std::string::npos ||
+        normalized.find("..") != std::string::npos || normalized.find('"') != std::string::npos) return {};
 
     std::lock_guard<std::mutex> lock(mutex_);
     for (const auto& root : roots_) {
@@ -96,8 +98,14 @@ ResolvedTrack PathResolver::Resolve(const std::string& virtualPath) const {
         std::replace(relative.begin(), relative.end(), '\\',
                      static_cast<char>(fs::path::preferred_separator));
         fs::path loosePath = fs::path(root.path) / relative;
+        // Canonical containment also prevents a file-patching symlink from
+        // turning a registered audio root into arbitrary filesystem access.
         std::error_code fileEc;
         if (fs::is_regular_file(loosePath, fileEc) && !fileEc) {
+            const auto base = fs::weakly_canonical(root.path, fileEc);
+            const auto target = fs::weakly_canonical(loosePath, fileEc);
+            const auto rel = target.lexically_relative(base);
+            if (fileEc || rel.empty() || *rel.begin() == "..") continue;
             ResolvedTrack result;
             result.kind = ResolvedKind::LooseFile;
             result.looseFilePath = loosePath.string();

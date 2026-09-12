@@ -3,6 +3,7 @@
 #include <mutex>
 #include <string>
 #include <utility>
+#include <atomic>
 
 #include "miniaudio.h"
 
@@ -31,6 +32,7 @@ public:
     void Shutdown();
 
     bool IsInitialized() const;
+    std::string Meter();
 
     // Human-readable reason the most recent Init() call failed, if any.
     const std::string& LastError() const;
@@ -52,6 +54,8 @@ private:
     ma_engine engine_{};
     bool initialized_ = false;
     std::string lastError_;
+    std::atomic<float> peak_{0};
+    std::atomic<uint64_t> renderedFrames_{0};
 };
 
 } // namespace edj

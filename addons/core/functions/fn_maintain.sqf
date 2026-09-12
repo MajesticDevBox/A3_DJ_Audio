@@ -5,7 +5,7 @@ private _removed = [];
     private _operator = _stage get "operator";
     private _changes = [];
     if ("radioModule" in _stage && {isNull (_stage get "radioModule")} && {_stage get "playback" == "playing"}) then {_changes pushBack ["playback", "stopped"];};
-    if (_stage get "audioBackend" == "native" && {_stage get "playback" == "playing"}) then {
+    if (_stage get "audioBackend" in ["native", "miniaudio"] && {_stage get "playback" == "playing"}) then {
         private _decks = +(_stage get "decks");
         private _index = ["A", "B"] find (_stage get "activeDeck");
         private _deck = createHashMapFromArray (_decks select _index);

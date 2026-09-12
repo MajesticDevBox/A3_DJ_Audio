@@ -63,7 +63,7 @@ if(WIN32)
     WIN32_LEAN_AND_MEAN
     NOMINMAX
   )
-  target_link_libraries(${EDJ_TARGET_NAME} PRIVATE ole32 winmm)
+  target_link_libraries(${EDJ_TARGET_NAME} PRIVATE ole32 winmm shell32)
   set_target_properties(${EDJ_TARGET_NAME} PROPERTIES PREFIX "")
 else()
   target_compile_definitions(${EDJ_TARGET_NAME} PRIVATE EDJ_PLATFORM_WINDOWS=0)

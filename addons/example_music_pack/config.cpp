@@ -37,4 +37,9 @@ class CfgEventDJTracks {
         originatingAddon = "EDJ_example_music_pack";
         compatibilityVersion = 2;
     };
+    class EDJ_MiniaudioAcceptanceTone: EDJ_ExampleTone_A {
+        id = "edj_miniaudio_acceptance";
+        title = "Miniaudio Acceptance Tone";
+        backend = "miniaudio";
+    };
 };

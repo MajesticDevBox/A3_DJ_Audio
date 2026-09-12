@@ -8,27 +8,46 @@
 // non-zero errorCode means Arma itself couldn't reach the extension (most
 // commonly: edj_miniaudio_x64.dll isn't present in @edj's root yet).
 params ["_operation", "_stage"];
-private _extension = "edj_miniaudio_x64";
+if (!hasInterface) exitWith {[false, "no_interface"]};
+private _extension = "edj_miniaudio";
 private _stageId = _stage get "stageId";
 private _emitter = _stage get "emitter";
 
 private _fnc_call = {
     params ["_function", ["_args", []]];
     (_extension callExtension [_function, _args]) params ["_output", "_returnCode", "_errorCode"];
-    if (_errorCode != 0) exitWith {[false, "extension_missing"]};
+    if (_errorCode != 0 || {_output == ""}) exitWith {[false, "extension_missing_or_blocked"]};
+    if (_returnCode != 0) exitWith {[false, "extension_call_failed"]};
+    if (_output select [0, 2] == "0:") exitWith {[false, _output select [2]]};
     [true, _output]
 };
 
 switch (_operation) do {
+    case "pause"; case "resume"; case "duration"; case "position": {
+        [_operation, [_stageId]] call _fnc_call
+    };
+    case "seek": {
+        private _offset = _stage get "startOffset";
+        if (_stage get "playback" == "playing") then {_offset = _offset + (serverTime - (_stage get "startServerTime"));};
+        ["seek", [_stageId, str (_offset max 0)]] call _fnc_call
+    };
     case "available": {
+        private _discovery = [true, "available"];
+        if (!(missionNamespace getVariable ["EDJ_miniaudioDiscovered", false])) then {
+            _discovery = ["discover"] call _fnc_call;
+            if (_discovery select 0) then {missionNamespace setVariable ["EDJ_miniaudioDiscovered", true];};
+        };
+        if !(_discovery select 0) exitWith {_discovery};
         (["status"] call _fnc_call) params ["_ok", "_status"];
         if (!_ok) exitWith {[false, _status]};
         if (_status == "running") exitWith {[true, "available"]};
         (["init"] call _fnc_call) params ["_ok2", "_initOutput"];
         if (_ok2 && {_initOutput == "1"}) exitWith {[true, "available"]};
-        [false, "engine_init_failed"]
+        [false, _initOutput]
     };
     case "play": {
+        private _ready = ["available", _stage] call EDJ_fnc_miniaudio;
+        if !(_ready select 0) exitWith {_ready};
         if (isNull _emitter) exitWith {[false, "emitter_missing"]};
         private _entry = [_stage get "audioSource"] call EDJ_fnc_libraryGetTrack;
         private _file = _entry getOrDefault ["source", ""];
@@ -39,6 +58,11 @@ switch (_operation) do {
         private _gain = [_stage] call EDJ_fnc_streamGain;
         private _pos = getPosASL _emitter;
         private _range = _stage getOrDefault ["range", 50];
+        // Set the listener before the first sample, not one status tick later.
+        private _listener = if (isNull findDisplay 312) then {call CBA_fnc_currentUnit} else {curatorCamera};
+        private _lp = if (isNull findDisplay 312) then {eyePos _listener} else {getPosASL _listener};
+        private _ld = if (isNull findDisplay 312) then {eyeDirection _listener} else {vectorDir _listener};
+        ["set_listener", (_lp + _ld) apply {str _x}] call _fnc_call;
         private _args = [
             _stageId, _file, str _gain, str (_offset max 0),
             str (_pos select 0), str (_pos select 1), str (_pos select 2), str _range
@@ -48,7 +72,8 @@ switch (_operation) do {
         [_output == "1", ["error", "playing"] select (_output == "1")]
     };
     case "stop": {
-        ["stop", [_stageId]] call _fnc_call;
+        private _result = ["stop", [_stageId]] call _fnc_call;
+        if !(_result select 0) exitWith {_result};
         [true, "stopped"]
     };
     case "volume": {
@@ -60,7 +85,7 @@ switch (_operation) do {
     case "status": {
         (["playback_status", [_stageId]] call _fnc_call) params ["_ok", "_output"];
         if (!_ok) exitWith {[false, _output]};
-        [true, ["stopped", "playing"] select (_output == "playing")]
+        [true, _output]
     };
     default {[false, "unsupported"]};
 }

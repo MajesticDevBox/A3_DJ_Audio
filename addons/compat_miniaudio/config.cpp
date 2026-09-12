@@ -18,5 +18,5 @@ class CfgFunctions {
     };
 };
 class CfgEDJAudioProviders {
-    class miniaudio { handler = "EDJ_fnc_miniaudio"; capabilities[] = {"play", "stop", "volume", "spatial", "status"}; };
+    class miniaudio { handler = "EDJ_fnc_miniaudio"; capabilities[] = {"play", "stop", "pause", "resume", "seek", "duration", "position", "cue", "volume", "spatial", "status"}; };
 };

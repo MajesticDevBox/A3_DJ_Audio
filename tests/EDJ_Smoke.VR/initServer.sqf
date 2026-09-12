@@ -6,6 +6,9 @@ edjPA = createVehicle ["Land_Loudspeakers_F", [4000,4010,0], [], 0, "CAN_COLLIDE
 publicVariable "edjLaptop";
 publicVariable "edjOrdinaryLaptop";
 publicVariable "edjPA";
+[] spawn {
+// Allow AE3's vehicle initialization to finish before the module initializes it.
+sleep 2;
 private _logicGroup = createGroup sideLogic;
 private _workstationModule = _logicGroup createUnit ["Logic", [4000,4003,0], [], 0, "NONE"];
 _workstationModule synchronizeObjectsAdd [edjLaptop];
@@ -22,3 +25,4 @@ diag_log format ["[EDJ TEST] soldier addons=%1", configSourceAddonList (configFi
 private _revision = (EDJ_stages get "main") get "revision";
 ["main", [["masterVolume", 1]], "test_noop"] call EDJ_fnc_commitStage;
 diag_log format ["[EDJ TEST] no-op revision stable=%1", (EDJ_stages get "main") get "revision" == _revision];
+};

@@ -39,12 +39,15 @@ public:
               std::string& outError);
 
     void Stop(const std::string& stageId);
+    void StopAll();
 
     bool SetVolume(const std::string& stageId, float gain, std::string& outError);
     bool SetPosition(const std::string& stageId, float x, float y, float z, std::string& outError);
 
     // "playing" | "stopped" | "missing"
     std::string Status(const std::string& stageId) const;
+    std::string Debug(const std::string& stageId) const;
+    std::string Control(const std::string& stageId, const std::string& operation, double seconds = 0);
 
     bool SetListener(float x, float y, float z, float dirX, float dirY, float dirZ,
                       std::string& outError);
@@ -58,6 +61,7 @@ private:
         std::vector<uint8_t> encodedBytes;
         bool decoderInitialized = false;
         bool soundInitialized = false;
+        uint64_t serial = 0;
         ~ActiveSound();
     };
 
@@ -66,6 +70,7 @@ private:
 
     mutable std::mutex mutex_;
     std::unordered_map<std::string, std::unique_ptr<ActiveSound>> sounds_;
+    uint64_t nextSerial_ = 0;
 };
 
 } // namespace edj

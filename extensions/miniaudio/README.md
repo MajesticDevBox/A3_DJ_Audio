@@ -10,6 +10,14 @@ unmodified and this stays a separate, optional provider.
 
 ## Status
 
+**2026-09-12: M1 engine validation passes; acceptance remains blocked on human
+audibility.** The real HEMTT-packed OGG passed three Arma AE3 workstation
+play/live-volume/stop cycles with nonzero WASAPI output. See
+[`docs/MINIAUDIO_ACCEPTANCE.md`](../../docs/MINIAUDIO_ACCEPTANCE.md) for current
+evidence, the interactive runner, and outstanding M2–M4 work. The release ZIP
+does not yet automatically include the DLL. Older test counts below describe
+the original implementation and do not establish current runtime acceptance.
+
 Three slices in:
 
 1. **Extension scaffold** -- CMake build producing `edj_miniaudio_x64.dll` on

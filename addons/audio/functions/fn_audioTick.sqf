@@ -46,7 +46,7 @@ private _listenerPushed = false;
             if !(isNull _listener) then {
                 private _pos = getPosASL _listener;
                 private _dir = eyeDirection _listener;
-                "edj_miniaudio_x64" callExtension ["set_listener", [
+                "edj_miniaudio" callExtension ["set_listener", [
                     str (_pos select 0), str (_pos select 1), str (_pos select 2),
                     str (_dir select 0), str (_dir select 1), str (_dir select 2)
                 ]];

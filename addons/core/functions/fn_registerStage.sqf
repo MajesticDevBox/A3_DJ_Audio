@@ -6,7 +6,7 @@ if ((_allowedUIDs findIf {!(_x isEqualType "")}) >= 0) exitWith {false};
 if (count _audio != 4 || {(_audio findIf {!(_x isEqualType 0) || {!finite _x}}) >= 0}) exitWith {false};
 _audio params ["_volume", "_gain", "_range", "_cone"];
 if ((values EDJ_stages findIf {(_x get "emitter") == _emitter || {(_x get "workstation") == _workstation}}) >= 0) exitWith {false};
-if (_id in EDJ_stages || {!(_backend in ["carpinchos", "native"])}) exitWith {false};
+if (_id in EDJ_stages || {!(_backend in ["carpinchos", "native", "miniaudio"])}) exitWith {false};
 private _entry = [_source] call EDJ_fnc_libraryGetTrack;
 if (count _entry == 0 || {_entry get "backend" != _backend}) exitWith {false};
 private _deckA = ["A", _entry] call EDJ_fnc_deckCreate;
