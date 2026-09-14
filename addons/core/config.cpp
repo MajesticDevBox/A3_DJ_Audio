@@ -15,6 +15,7 @@ class publish {};
 class receive {};
 class sync {};
 class maintain {};
+class hasEmitter {};
 class commitStage {};
 class deny {};
 class debugStage {};

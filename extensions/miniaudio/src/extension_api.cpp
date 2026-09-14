@@ -449,7 +449,16 @@ std::string Dispatch(const std::string& function, const std::vector<std::string>
         return kExtensionVersion;
     }
     if (function == "meter") return engine.Meter();
-    if (function == "pause" || function == "resume" || function == "seek" || function == "duration" || function == "position" || function == "cue_mode") {
+    if (function == "set_arrays") {
+        if (args.size() != 2) return "0:missing_args";
+        std::istringstream input(args[1]); std::string token; std::vector<float> values;
+        while (std::getline(input, token, ',')) {
+            if (values.size() >= edj::ArrayNode::MaxArrays * 8) return "0:too_many_arrays";
+            values.push_back(ParseFloat(token, 0));
+        }
+        return edj::PlaybackManager::Instance().SetArrays(args[0], values);
+    }
+    if (function == "pause" || function == "resume" || function == "seek" || function == "duration" || function == "position" || function == "cue_mode" || function == "arrays") {
         if (args.empty() || (function == "seek" && args.size() != 2)) return "0:missing_args";
         return edj::PlaybackManager::Instance().Control(args[0], function, function == "seek" ? ParseDouble(args[1], 0) : 0);
     }

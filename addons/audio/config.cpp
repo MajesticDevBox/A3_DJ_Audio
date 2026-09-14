@@ -5,6 +5,7 @@ class audioCall {};
 class audioSupportsFeature {};
 class audioApply {};
 class audioTick {};
+class audioSpatial {};
 class audioCue {};
 class native {};
 class streamGain {};

@@ -16,14 +16,14 @@ class CfgVehicles {
    class Cone {displayName="Stream front cone (degrees)"; description="360 is omnidirectional. Stream-only soft attenuation toward the rear, using the PA prop facing."; typeName="NUMBER"; defaultValue=360;};
   };
   class ModuleDescription: ModuleDescription {
-   description="Sync exactly one sound-source prop and one Event DJ Workstation module. Optionally sync Speaker Array modules. Only the main PA prop emits audio.";
+   description="Sync one Event DJ Workstation module and up to eight Stage Speaker Arrays or one physical PA prop. Miniaudio uses one spatial emitter per nonempty array, sharing one track timeline. Arrays take priority over the prop; without arrays the prop emits. Native and Carpinchos retain their single-prop output.";
    sync[]={"Anything"};
   };
  };
  class EDJ_Module_SpeakerArray: Module_F {
   scope=2; scopeCurator=0; displayName="EDJ: Stage Speaker Array"; category="EDJ_Modules";
   class ModuleDescription: ModuleDescription {
-   description="Sync any number of speaker props and one Main PA module. These props are members of one logical array; they do not create extra sound sources.";
+   description="Sync speaker cabinets and one Main PA. Miniaudio creates one spatial emitter at the live cabinet centroid, facing this module's direction. Cabinets do not create individual sources. All arrays share a sample timeline and divide stage gain equally. Maximum eight arrays per PA.";
    sync[]={"Anything"};
   };
  };

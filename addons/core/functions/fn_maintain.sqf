@@ -25,7 +25,7 @@ private _removed = [];
     if (_stage get "operatorUID" != "" && {isNull _operator || {!alive _operator} || {!isPlayer _operator} || {_operator distance (_stage get "workstation") > 5}}) then {
         _changes append [["operator", objNull], ["operatorUID", ""]];
     };
-    if ((isNull (_stage get "emitter") || {!alive (_stage get "emitter")} || {isNull (_stage get "workstation")} || {!alive (_stage get "workstation")}) && {_stage get "playback" == "playing"}) then {
+    if ((!([_stage] call EDJ_fnc_hasEmitter) || {isNull (_stage get "workstation")} || {!alive (_stage get "workstation")} || {"paModule" in _stage && {isNull (_stage get "paModule")}}) && {_stage get "playback" in ["playing", "paused"]}) then {
         _changes pushBack ["playback", "stopped"];
     };
     if (_changes isNotEqualTo []) then {[_stage get "stageId", _changes, "maintenance"] call EDJ_fnc_commitStage;};

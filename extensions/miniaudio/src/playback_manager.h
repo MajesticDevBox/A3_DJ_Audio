@@ -8,23 +8,12 @@
 #include <vector>
 
 #include "miniaudio.h"
+#include "array_node.h"
 
 namespace edj {
 
-// One ma_sound per Event DJ stage, keyed by stageId. This is what finally
-// gives local ("native") tracks the live per-source volume control that only
-// the Carpinchos stream provider had before -- SetVolume() below changes a
-// playing sound's gain in place via ma_sound_set_volume, no stop/restart.
-//
-// Directional attenuation itself is not computed here. It reuses the exact
-// scalar-gain-over-time approach the project already uses for stream cones
-// (addons/audio/functions/fn_streamGain.sqf, pushed periodically through
-// SetVolume) rather than adding a second, engine-side spatialization model.
-// This class's own spatialization (position + distance attenuation via
-// ma_sound_set_position/ma_sound_set_max_distance) only handles falloff with
-// distance from the listener, which is why SetListenerPosition must be
-// called periodically too -- see the extension README for the current
-// (1 Hz, via fn_audioTick.sqf) update rate and its trade-offs.
+// One ma_sound/decoder per stage (plus a separate local cue key). ArrayNode
+// spatializes shared PCM into up to eight array emitters without extra clocks.
 class PlaybackManager {
 public:
     static PlaybackManager& Instance();
@@ -48,6 +37,7 @@ public:
     std::string Status(const std::string& stageId) const;
     std::string Debug(const std::string& stageId) const;
     std::string Control(const std::string& stageId, const std::string& operation, double seconds = 0);
+    std::string SetArrays(const std::string& stageId, const std::vector<float>& values);
 
     bool SetListener(float x, float y, float z, float dirX, float dirY, float dirZ,
                       std::string& outError);
@@ -58,6 +48,7 @@ private:
     struct ActiveSound {
         ma_decoder decoder{};
         ma_sound sound{};
+        ArrayNode arrays;
         std::vector<uint8_t> encodedBytes;
         bool decoderInitialized = false;
         bool soundInitialized = false;

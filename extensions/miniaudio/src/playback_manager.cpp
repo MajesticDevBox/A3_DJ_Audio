@@ -10,6 +10,7 @@ PlaybackManager::ActiveSound::~ActiveSound() {
     if (soundInitialized) {
         ma_sound_uninit(&sound);
     }
+    arrays.Uninit();
     if (decoderInitialized) {
         ma_decoder_uninit(&decoder);
     }
@@ -28,6 +29,14 @@ bool PlaybackManager::Play(const std::string& stageId, std::vector<uint8_t> enco
                             float gain, double offsetSeconds, float x, float y, float z,
                             float range, std::string& outError) {
     AudioEngine& engineWrapper = AudioEngine::Instance();
+    {
+        std::lock_guard<std::mutex> lock(mutex_);
+        std::size_t total = encodedBytes.size();
+        for (const auto& item : sounds_) if (item.first != stageId) total += item.second->encodedBytes.size();
+        if ((sounds_.size() >= 16 && !sounds_.count(stageId)) || total > 256 * 1024 * 1024) {
+            outError = "source_resource_limit"; return false;
+        }
+    }
     if (!engineWrapper.IsInitialized()) {
         outError = "engine_not_initialized";
         return false;
@@ -46,12 +55,8 @@ bool PlaybackManager::Play(const std::string& stageId, std::vector<uint8_t> enco
     }
     active->decoderInitialized = true;
 
-    // MA_SOUND_FLAG_DECODE fully decodes up front on this (the calling)
-    // thread. That means a Play() call briefly blocks on decode time --
-    // acceptable for the short tracks this has been tested with, but a real
-    // async path (decode on a worker thread, report back through the
-    // already-wired RVExtensionRegisterCallback) is still a follow-up for
-    // longer music files. See the extension README.
+    // The memory-backed decoder is read by the audio thread. File extraction
+    // and decoder initialization still run synchronously before this point.
     bool initFailed = false;
     engineWrapper.WithEngine([&](ma_engine* engine) {
         if (engine == nullptr) {
@@ -70,6 +75,11 @@ bool PlaybackManager::Play(const std::string& stageId, std::vector<uint8_t> enco
         return false;
     }
     active->soundInitialized = true;
+    bool arrayReady = false;
+    engineWrapper.WithEngine([&](ma_engine* engine) { arrayReady = engine && active->arrays.Init(engine); });
+    if (!arrayReady || ma_node_attach_output_bus(&active->sound, 0, &active->arrays.base, 0) != MA_SUCCESS) {
+        outError = "array_node_init_failed"; return false;
+    }
 
     ma_sound_set_position(&active->sound, x, y, z);
     ma_sound_set_volume(&active->sound, gain);
@@ -145,6 +155,12 @@ std::string PlaybackManager::Control(const std::string& stageId, const std::stri
     auto it = sounds_.find(stageId);
     if (it == sounds_.end()) return "0:source_missing";
     auto* sound = &it->second->sound;
+    if (operation == "arrays") {
+        const auto n = it->second->arrays.count.load();
+        std::ostringstream out; out << "1:" << n;
+        for (unsigned i = 0; i < n * 8; ++i) out << ':' << it->second->arrays.parameters[i].load();
+        return out.str();
+    }
     if (operation == "pause") return ma_sound_stop(sound) == MA_SUCCESS ? "1" : "0:pause_failed";
     if (operation == "resume") return ma_sound_start(sound) == MA_SUCCESS ? "1" : "0:resume_failed";
     if (operation == "cue_mode") { ma_sound_set_spatialization_enabled(sound, MA_FALSE); return "1"; }
@@ -189,7 +205,27 @@ bool PlaybackManager::SetListener(float x, float y, float z, float dirX, float d
     if (!ok) {
         outError = "engine_not_initialized";
     }
+    std::lock_guard<std::mutex> lock(mutex_);
+    for (auto& item : sounds_) {
+        auto& p = item.second->arrays.listenerParameters;
+        p[0] = x; p[1] = y; p[2] = z; p[3] = dirX; p[4] = dirY; p[5] = dirZ;
+    }
     return ok;
+}
+
+std::string PlaybackManager::SetArrays(const std::string& stageId, const std::vector<float>& values) {
+    if (values.size() > ArrayNode::MaxArrays * 8 || values.size() % 8) return "0:invalid_arrays";
+    for (unsigned i = 0; i < values.size(); ++i) {
+        if (!std::isfinite(values[i]) || std::abs(values[i]) > 1000000) return "0:invalid_array_value";
+        if (i % 8 == 6 && (values[i] < 2 || values[i] > 5000)) return "0:invalid_array_range";
+        if (i % 8 == 7 && (values[i] < 1 || values[i] > 360)) return "0:invalid_array_cone";
+    }
+    std::lock_guard<std::mutex> lock(mutex_);
+    auto it = sounds_.find(stageId);
+    if (it == sounds_.end()) return "0:source_missing";
+    it->second->arrays.Set(values);
+    ma_sound_set_spatialization_enabled(&it->second->sound, values.empty() ? MA_TRUE : MA_FALSE);
+    return "1";
 }
 
 } // namespace edj

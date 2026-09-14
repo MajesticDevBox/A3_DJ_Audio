@@ -10,4 +10,7 @@ EDJ_providers = createHashMap;
 EDJ_audioReady = true;
 {[_y] call EDJ_fnc_audioApply;} forEach EDJ_clientStages;
 EDJ_audioPFH = [{call EDJ_fnc_audioTick}, 1] call CBA_fnc_addPerFrameHandler;
+EDJ_spatialPFH = [{call EDJ_fnc_audioSpatial}, 0.05] call CBA_fnc_addPerFrameHandler;
+addMissionEventHandler ["Ended", {"edj_miniaudio" callExtension ["shutdown", []];}];
+addMissionEventHandler ["MPEnded", {"edj_miniaudio" callExtension ["shutdown", []];}];
 ["INFO", "Audio providers initialized", keys EDJ_providers] call EDJ_fnc_log;

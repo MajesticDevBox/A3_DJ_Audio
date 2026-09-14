@@ -48,14 +48,14 @@ switch (_operation) do {
     case "play": {
         private _ready = ["available", _stage] call EDJ_fnc_miniaudio;
         if !(_ready select 0) exitWith {_ready};
-        if (isNull _emitter) exitWith {[false, "emitter_missing"]};
+        if !([_stage] call EDJ_fnc_hasEmitter) exitWith {[false, "emitter_missing"]};
         private _entry = [_stage get "audioSource"] call EDJ_fnc_libraryGetTrack;
         private _file = _entry getOrDefault ["source", ""];
         if (_file == "" || {_file select [0, 1] != "\"}) exitWith {[false, "addon_track_missing"]};
         private _offset = (_stage get "startOffset") + (serverTime - (_stage get "startServerTime"));
         private _duration = _entry getOrDefault ["duration", -1];
         if (_duration > 0 && {_offset >= _duration}) exitWith {[false, "ended"]};
-        private _gain = [_stage] call EDJ_fnc_streamGain;
+        private _gain = (_stage get "masterVolume") * (_stage getOrDefault ["outputGain", 1]);
         private _pos = getPosASL _emitter;
         private _range = _stage getOrDefault ["range", 50];
         // Set the listener before the first sample, not one status tick later.
@@ -77,7 +77,7 @@ switch (_operation) do {
         [true, "stopped"]
     };
     case "volume": {
-        private _gain = [_stage] call EDJ_fnc_streamGain;
+        private _gain = (_stage get "masterVolume") * (_stage getOrDefault ["outputGain", 1]);
         (["volume", [_stageId, str _gain]] call _fnc_call) params ["_ok", "_output"];
         if (!_ok) exitWith {[false, _output]};
         [_output == "1", ["volume_failed", "volume_applied"] select (_output == "1")]

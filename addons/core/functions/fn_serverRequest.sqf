@@ -80,7 +80,7 @@ switch (_operation) do {
         private _deck = createHashMapFromArray (_decks select _index);
         if (_deck get "loadedTrackId" == "") exitWith {["empty_deck"] call _deny;};
         if !("play" in ([_deck get "backend"] call _providerCapabilities)) exitWith {["unsupported_play"] call _deny;};
-        if !(_stage get "powerState" && {!isNull (_stage get "emitter")} && {alive (_stage get "emitter")} && {serverTime - (_stage get "lastPlay") >= 2}) exitWith {["play_state_or_cooldown"] call _deny;};
+        if !(_stage get "powerState" && {[_stage] call EDJ_fnc_hasEmitter} && {serverTime - (_stage get "lastPlay") >= 2}) exitWith {["play_state_or_cooldown"] call _deny;};
         private _otherIndex = 1 - _index;
         private _other = createHashMapFromArray (_decks select _otherIndex);
         if (_other get "playbackState" in ["PLAYING", "STARTING", "PAUSED"]) then {_other set ["playbackState", "STOPPED"]; _other set ["startOffset", 0]; _decks set [_otherIndex, [_other] call _serialize];};
@@ -157,7 +157,7 @@ switch (_operation) do {
         if (_index < 0 || {_value == _active}) exitWith {["unknown_or_active_deck"] call _deny;};
         private _deck = createHashMapFromArray (_decks select _index);
         if (_deck get "loadedTrackId" == "") exitWith {["empty_deck"] call _deny;};
-        if !(_stage get "powerState" && {!isNull (_stage get "emitter")} && {alive (_stage get "emitter")} && {serverTime - (_stage get "lastPlay") >= 2}) exitWith {["play_state_or_cooldown"] call _deny;};
+        if !(_stage get "powerState" && {[_stage] call EDJ_fnc_hasEmitter} && {serverTime - (_stage get "lastPlay") >= 2}) exitWith {["play_state_or_cooldown"] call _deny;};
         private _oldIndex = [_active] call _deckIndex; private _old = createHashMapFromArray (_decks select _oldIndex);
         _old set ["playbackState", "STOPPED"]; _old set ["startOffset", 0]; _decks set [_oldIndex, [_old] call _serialize];
         _deck set ["playbackState", "PLAYING"];

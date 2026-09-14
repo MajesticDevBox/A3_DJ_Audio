@@ -10,13 +10,14 @@ unmodified and this stays a separate, optional provider.
 
 ## Status
 
-**2026-09-12: M1 engine validation passes; acceptance remains blocked on human
-audibility.** The real HEMTT-packed OGG passed three Arma AE3 workstation
-play/live-volume/stop cycles with nonzero WASAPI output. See
-[`docs/MINIAUDIO_ACCEPTANCE.md`](../../docs/MINIAUDIO_ACCEPTANCE.md) for current
-evidence, the interactive runner, and outstanding M2–M4 work. The release ZIP
-does not yet automatically include the DLL. Older test counts below describe
-the original implementation and do not establish current runtime acceptance.
+**2026-09-12: M1 human acceptance PASS.** Array playback and in-place controls
+now pass native and Arma engine tests. See
+[`docs/MINIAUDIO_ACCEPTANCE.md`](../../docs/MINIAUDIO_ACCEPTANCE.md) and
+[`docs/STAGE_ARRAY_AUDIO.md`](../../docs/STAGE_ARRAY_AUDIO.md) for current evidence,
+spatial behavior, packaging and the sequential human listening tests. HEMTT now
+packages the bundled Windows DLL automatically. Dedicated multiplayer and the
+remaining M4 integrations are not yet accepted. Older sections below describe
+the original implementation; the linked acceptance audit is authoritative.
 
 Three slices in:
 

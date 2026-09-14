@@ -9,6 +9,11 @@ TrackCache& TrackCache::Instance() {
 
 void TrackCache::Put(const std::string& trackId, TrackInfo info) {
     std::lock_guard<std::mutex> lock(mutex_);
+    tracks_.erase(trackId);
+    std::size_t total = info.bytes.size();
+    for (const auto& item : tracks_) total += item.second.bytes.size();
+    // Cache eviction never affects active sounds: they own their encoded bytes.
+    if (tracks_.size() >= 16 || total > 128 * 1024 * 1024) tracks_.clear();
     tracks_[trackId] = std::move(info);
 }
 

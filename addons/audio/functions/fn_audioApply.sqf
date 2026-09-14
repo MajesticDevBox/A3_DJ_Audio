@@ -37,7 +37,7 @@ if (_backend == "miniaudio") exitWith {
     _instance set ["generation", _stage get "playGeneration"];
     _instance set ["timing", [_stage get "playGeneration", _stage get "startOffset", _stage get "startServerTime", _state]];
     _instance set ["status", if (_result select 0) then {_state} else {_result select 1}];
-    _instance set ["phase", if !(_result select 0) then {"ERROR"} else {if (_state == "playing") then {"PLAYING"} else {"IDLE"}}];
+    _instance set ["phase", if !(_result select 0) then {"ERROR"} else {["IDLE", "PLAYING"] select (_state == "playing")}];
     EDJ_audioInstances set [_id, _instance];
 };
 if (_instance getOrDefault ["held", false]) then {[_instance get "backend", "stop", _stage] call EDJ_fnc_audioCall; _instance set ["held", false]; _instance set ["playing", false];};

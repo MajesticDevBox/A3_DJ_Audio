@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 project(edj_miniaudio CXX C)
+set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 
 # ---------------------------------------------------------------------------
 # Event DJ local-audio adapter extension.
@@ -42,6 +43,7 @@ add_library(${EDJ_TARGET_NAME} SHARED
   src/track_cache.cpp
   src/path_resolver.cpp
   src/playback_manager.cpp
+  src/array_node.cpp
   src/extension_api.cpp
 )
 
