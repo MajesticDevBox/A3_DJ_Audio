@@ -10,3 +10,6 @@ __pycache__/
 
 # Marketplace asset working copies and intermediate exports never belong in Git.
 asset_work/
+
+# CMake/MSBuild build directory - generated, not source.
+/build/
